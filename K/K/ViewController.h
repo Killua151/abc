@@ -9,7 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+    
+    __weak IBOutlet UITextField *Text;
+}
 
+- (IBAction)Bt:(id)sender;
 
 @end
 

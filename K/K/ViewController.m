@@ -24,4 +24,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)Bt:(id)sender
+{
+    Text.text = @"Hello World";
+}
 @end
